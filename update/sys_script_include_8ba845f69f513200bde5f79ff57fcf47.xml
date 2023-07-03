@@ -8,7 +8,8 @@
         <description/>
         <name>validateEmailAddress</name>
         <script><![CDATA[function validateEmailAddress(emailStr){
-    // Use JavaScript coercion to guarantee emailStr is a string
+// TEST CHANGE
+            // Use JavaScript coercion to guarantee emailStr is a string
     emailStr = emailStr + '';
     // Compare emailStr against the allowed syntax as specified in the regular expression
     // If emailStr has allowed syntax, return true, else return false
